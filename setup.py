@@ -18,15 +18,14 @@ def _get_requirements() -> List[str]:
 setuptools.setup(
     name="foundrytools-lib",
     version="0.0.1",
-    description="A set of command line tools to inspect, manipulate and convert font files",
+    description="FoundryTools Library.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="ftCLI",
     author_email="ftcli@proton.me",
-    url="https://github.com/ftCLI/FoundryTools-CLI-2",
+    url="https://github.com/ftCLI/FoundryTools-Lib",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    entry_points={"console_scripts": ["ft-cli = foundrytools_cli_2.__main__:cli"]},
     install_requires=_get_requirements(),
     classifiers=[
         "Programming Language :: Python :: 3",
